@@ -1,3 +1,4 @@
+
 Android 开源项目分类汇总
 ====================
 
@@ -30,14 +31,21 @@ Android 开源项目分类汇总
 *&nbsp;&nbsp;乐于分享并且有一些很不错的开源项目的[个人](https://github.com/Trinea/android-open-project#一个人)和[组织](https://github.com/Trinea/android-open-project#二组织)，包括 JakeWharton、Chris Banes、Koushik Dutta 等大牛*  
 
 ## 第一部分 个性化控件(View)
-主要介绍那些不错个性化的 View，包括 ListView、ActionBar、Menu、ViewPager、Gallery、GridView、ImageView、ProgressBar、TextView、ScrollView、TimeView、TipView、FlipView、ColorPickView、GraphView、UI Style 等等。  
 
-#### 一、ListView
-1. android-pulltorefresh  
-一个强大的拉动刷新开源项目，支持各种控件下拉刷新，ListView、ViewPager、WebView、ExpandableListView、GridView、ScrollView、Horizontal  ScrollView、Fragment 上下左右拉动刷新，比下面 johannilsson 那个只支持 ListView 的强大的多。并且它实现的下拉刷新 ListView 在 item 不足一屏情况下也不会显示刷新提示，体验更好。  
-项目地址：https://github.com/chrisbanes/Android-PullToRefresh  
-Demo 地址：https://github.com/Trinea/TrineaDownload/blob/master/pull-to-refreshview-demo.apk?raw=true  
-APP 示例：新浪微博各个页面  
+
+#### 一、自定义view
+1. flowlayout 
+Android流式布局，支持单选、多选等，适合用于产品标签等。 ##特色
+以setAdapter形式注入数据
+直接设置selector为background即可完成标签选则的切换，类似CheckBox
+支持控制选择的Tag数量，比如：单选、多选
+支持setOnTagClickListener，当点击某个Tag回调
+支持setOnSelectListener，当选择某个Tag后回调
+支持adapter.notifyDataChanged
+Activity重建（或者旋转）后，选择的状态自动保存
+项目地址：https://github.com/hongyangAndroid/FlowLayout
+项目地址：https://github.com/nex3z/FlowLayout
+
 
 1. android-pulltorefresh-listview  
 下拉刷新 ListView，这个被很多人使用的项目实际有不少 bug，推荐使用 [android-Ultra-Pull-to-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)  
@@ -2458,48 +2466,8 @@ Github 地址：https://github.com/emilsjolander
 主页：http://emilsjolander.se/  
 
 1. greenrobot  
-Github 地址：https://github.com/greenrobot  
-代表作：greenDAO，EventBus  
-主页：http://greenrobot.de/  
+Github 地址：https://github.com/greenrobot  代表作：greenDAO，EventBus  
 
-1. Jeff Gilfelt  
-Github 地址：https://github.com/jgilfelt  
-代表作：android-mapviewballoons，android-viewbadger，android-actionbarstylegenerator，android-sqlite-asset-helper  
-主页：http://jeffgilfelt.com  
-
-1. Romain Guy  
-Android team 成员(2013.10 已离开 Android team，仍在 Google)  
-Github 地址：https://github.com/romainguy  
-代表作：ViewServer  
-主页：http://www.curious-creature.org/category/android/  
-個人攝影作品：http://www.flickr.com/photos/romainguy  
-
-1. sephiroth74  
-就职于 Aviary.com  
-Github 地址：https://github.com/sephiroth74  
-代表作：ImageViewZoom，HorizontalVariableListView，AndroidWheel，purePDF  
-主页：http://www.sephiroth.it/  
-
-1. Cyril Mottier  
-Google 开发者专家认证，发布一些 Android 技巧及文章  
-Github 地址：https://github.com/cyrilmottier  
-代表作：GreenDroid，Polaris  
-主页：http://cyrilmottier.com/  
-
-#### 二、组织  
-1. Square  
-有态度有良心的企业，很多不错的分享  
-Github 地址：https://github.com/square  
-代表作：okhttp、fest-android，android-times-square、picasso、dagger、spoon 等等  
-主页：http://square.github.io/  
-
-1. Inmite s.r.o.  
-Github 地址：https://github.com/inmite  
-代表作：android-styled-dialogs，android-grid-wichterle，android-selector-chapek  
-主页：http://www.inmite.eu/  
-
-#### 三、博客  
-[部分国外著名 Android 开发者信息](https://github.com/android-cn/android-dev-com)  
 
 ## License
 
