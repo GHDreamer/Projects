@@ -22,13 +22,11 @@ Android 开源项目分类汇总
 1. flowlayout 
 Android流式布局，支持单选、多选等，适合用于产品标签等。
 ##特色
-以setAdapter形式注入数据
-直接设置selector为background即可完成标签选则的切换，类似CheckBox
+以setAdapter形式注入数据,直接设置selector为background即可完成标签选则的切换，类似CheckBox
 支持控制选择的Tag数量，比如：单选、多选
 支持setOnTagClickListener，当点击某个Tag回调
 支持setOnSelectListener，当选择某个Tag后回调
-支持adapter.notifyDataChanged
-Activity重建（或者旋转）后，选择的状态自动保存
+支持adapter.notifyDataChanged,Activity重建（或者旋转）后，选择的状态自动保存
 项目地址：https://github.com/hongyangAndroid/FlowLayout
 项目地址：https://github.com/nex3z/FlowLayout
 
