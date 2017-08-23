@@ -28,13 +28,6 @@ Android流式布局，支持单选、多选等，适合用于产品标签等。
 
 
  
-
-1. DragSortListView  
-拖动排序的 ListView，同时支持 ListView 滑动 item 删除，各个 Item 高度不一、单选、复选、CursorAdapter 做为适配器、拖动背景变化等  
-项目地址：https://github.com/bauerca/drag-sort-listview  
-Demo 地址：https://play.google.com/store/apps/details?id=com.mobeta.android.demodslv  
-APP 示例：Wordpress Android  
-
 1. SwipeListView  
 支持定义 ListView 左右滑动事件，支持左右滑动位移，支持定义动画时间  
 项目地址：https://github.com/47deg/android-swipelistview  
