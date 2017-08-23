@@ -4,7 +4,7 @@ Android 开源项目分类汇总
 
 
 ## 目前包括：
->[Android 开源项目第一篇——个性化控件(View)篇](https://github.com/Trinea/android-open-project#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86-%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A7%E4%BB%B6view)  
+>[Android 开源项目第一篇——个性化控件(View)篇](https://github.com/Trinea/android-openproject#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86-%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A7%E4%BB%B6view)  
 *&nbsp;&nbsp;包括[ListView](https://github.com/Trinea/android-open-project#%E4%B8%80listview)、[ActionBar](https://github.com/Trinea/android-open-project#%E4%BA%8Cactionbar)、[Menu](https://github.com/Trinea/android-open-project#%E4%B8%89menu)、[ViewPager](https://github.com/Trinea/android-open-project#%E5%9B%9Bviewpager-gallery)、[Gallery](https://github.com/Trinea/android-open-project#%E5%9B%9Bviewpager-gallery)、[GridView](https://github.com/Trinea/android-open-project#%E4%BA%94gridview)、[ImageView](https://github.com/Trinea/android-open-project#%E5%85%ADimageview)、[ProgressBar](https://github.com/Trinea/android-open-project#%E4%B8%83progressbar)、[TextView](https://github.com/Trinea/android-open-project#%E5%85%ABtextview)、[ScrollView](https://github.com/Trinea/android-open-project#%E4%B9%9Dscrollview)、[TimeView](https://github.com/Trinea/android-open-project#%E5%8D%81timeview)、[TipView](https://github.com/Trinea/android-open-project#%E5%8D%81%E4%B8%80tipview)、[FlipView](https://github.com/Trinea/android-open-project#%E5%8D%81%E4%BA%8Cflipview)、[ColorPickView](https://github.com/Trinea/android-open-project#%E5%8D%81%E4%B8%89colorpickview)、[GraphView](https://github.com/Trinea/android-open-project#%E5%8D%81%E5%9B%9Bgraphview)、[UI Style](https://github.com/Trinea/android-open-project#%E5%8D%81%E4%BA%94ui-style)、[其他](https://github.com/Trinea/android-open-project#十六其他)*  
 [Android 开源项目第二篇——工具库篇](https://github.com/Trinea/android-open-project#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86-%E5%B7%A5%E5%85%B7%E5%BA%93)  
 *&nbsp;&nbsp;包括[依赖注入](https://github.com/Trinea/android-open-project#一依赖注入-di)、[图片缓存](https://github.com/Trinea/android-open-project#二图片缓存)、[网络请求](https://github.com/Trinea/android-open-project#三网络请求)、[数据库 ORM 工具包](https://github.com/Trinea/android-open-project#四数据库-orm-工具包)、[Android 公共库](https://github.com/Trinea/android-open-project#五android-公共库)、[高版本向低版本兼容库](https://github.com/Trinea/android-open-project#六android-高版本向低版本兼容)、[多媒体](https://github.com/Trinea/android-open-project#七多媒体相关)、[事件总线](https://github.com/Trinea/android-open-project#八事件总线订阅者模式)、[传感器](https://github.com/Trinea/android-open-project#九传感器)、[安全](https://github.com/Trinea/android-open-project#十安全)、[插件化](https://github.com/Trinea/android-open-project#十一插件化)、[文件](https://github.com/Trinea/android-open-project#十二文件)、[其他](https://github.com/Trinea/android-open-project#十三其他)*  
@@ -25,15 +25,7 @@ Android流式布局，支持单选、多选等，适合用于产品标签等。
 以setAdapter形式注入数据,直接设置selector为background即可完成标签选则的切换，类似CheckBox,支持控制选择的Tag数量，比如：单选、多选,支持setOnTagClickListener，当点击某个Tag回调,支持setOnSelectListener，当选择某个Tag后回调支持adapter.notifyDataChanged,Activity重建（或者旋转）后，选择的状态自动保存。
 项目地址：https://github.com/hongyangAndroid/FlowLayout
 项目地址：https://github.com/nex3z/FlowLayout
-
-
  
-1. SwipeListView  
-支持定义 ListView 左右滑动事件，支持左右滑动位移，支持定义动画时间  
-项目地址：https://github.com/47deg/android-swipelistview  
-Demo 地址：https://play.google.com/store/apps/details?id=com.fortysevendeg.android.swipelistview  
-APP 示例：微信  
-
 1. Android-SwipeToDismiss  
 滑动 Item 消失 ListView，支持 3.0 以下版本见：https://github.com/JakeWharton/SwipeToDismissNOA  
 项目地址：https://github.com/romannurik/Android-SwipeToDismiss  
@@ -1338,7 +1330,6 @@ square 开源的图片缓存
 Demo 地址：https://github.com/liaohuqiu/cube-sdk/raw/master/cube-sdk-sample.apk  
 文档介绍：http://cube-sdk.liaohuqiu.net/  
 效果图：![Renderings](https://raw.githubusercontent.com/etao-open-source/cube-sdk/dev/screen-shot.png)  
-
 1. fresco  
 一款强大的图片缓存工具，由 Facebook 开发  
 项目地址：https://github.com/facebook/fresco  
@@ -1363,44 +1354,6 @@ Glide 是一个 android 平台上的快速和高效的开源的多媒体资源�
 (6) 动画的支持  
 (7) OkHttp 和 Volley 的支持  
 
-#### 三、网络请求
-1. Volley  
-Google 提供的网络通信库，使得网络请求更简单、更快速  
-项目地址：https://android.googlesource.com/platform/frameworks/volley  
-文档介绍：http://commondatastorage.googleapis.com/io-2013/presentations/110%20-%20Volley-%20Easy,%20Fast%20Networking%20for%20Android.pdf  
-
-1. Asynchronous Http Client for Android  
-Android 异步 Http 请求  
-项目地址：https://github.com/loopj/android-async-http  
-文档介绍：http://loopj.com/android-async-http/  
-特点：(1) 在匿名回调中处理请求结果  
-(2) 在 UI 线程外进行 http 请求  
-(3) 文件断点上传  
-(4) 智能重试  
-(5) 默认 gzip 压缩  
-(6) 支持解析成 Json 格式  
-(7) 可将 Cookies 持久化到 SharedPreferences  
-
-1. android-query  
-异步加载，更少代码完成 Android 加载  
-项目地址：https://github.com/androidquery/androidquery 或 https://code.google.com/p/android-query/  
-Demo 地址：https://play.google.com/store/apps/details?id=com.androidquery  
-文档介绍：https://code.google.com/p/android-query/#Why_AQuery?  
-特点：https://code.google.com/p/android-query/#Why_AQuery?  
-
-1. Async Http Client  
-Java 异步 Http 请求  
-项目地址：https://github.com/AsyncHttpClient/async-http-client  
-文档介绍：http://sonatype.github.io/async-http-client/  
-
-1. Ion  
-支持图片、json、http post 等异步请求  
-项目地址：https://github.com/koush/ion  
-文档介绍：https://github.com/koush/ion#more-examples  
-
-1. Http Request  
-项目地址：https://github.com/kevinsawicki/http-request  
-文档介绍：https://github.com/kevinsawicki/http-request#examples  
 
 1. okhttp  
 square 开源的 http 工具类  
@@ -1421,9 +1374,6 @@ Android 异步网络请求工具，支持缓存、REST 等等
 项目地址：https://github.com/stephanenicolas/robospice  
 Demo 地址：https://github.com/stephanenicolas/RoboDemo/downloads  
 
-1. TwistVolley  
-TwistVolley 是对 Volley 的一个封装库。提供类似 Picasso 一样的串联式 API。使得使用 Volley 更加方便。  
-项目地址：https://github.com/TwistedEquations/TwistVolley  
 
 #### 四、数据库 orm 工具包
 orm 的 db 工具类，简化建表、查询、更新、插入、事务、索引的操作  
@@ -1435,103 +1385,9 @@ Android Sqlite orm 的 db 工具类
 特点：(1) 性能佳  
 (2) 简单易用的 API  
 (3) 内存小好小  
-(4) 库大小小  
+(4) 库大小小 
 
-1. ActiveAndroid  
-Android Sqlite orm 的 db 工具类  
-项目地址：https://github.com/pardom/ActiveAndroid  
-文档介绍：https://github.com/pardom/ActiveAndroid/wiki/_pages  
 
-1. Sprinkles  
-Android Sqlite orm 的 db 工具类，比较显著的特点就是配合 https://github.com/square/retrofit 能保存从服务器获取的数据  
-项目地址：https://github.com/emilsjolander/sprinkles  
-文档介绍：http://emilsjolander.github.io/blog/2013/12/18/android-with-sprinkles/  
-
-1. Realm  
-移动端的数据库，适用于 Phone、Tablet、Wearable，支持 ORM，线程安全、支持连表及数据库加密，比 SQLite 性能更好  
-项目地址：https://github.com/realm/realm-java  
-文档介绍：http://realm.io/docs/java/0.72.0/  
-
-1. ormlite-android  
-项目地址：https://github.com/j256/ormlite-android  
-文档介绍：http://ormlite.com/sqlite_java_android_orm.shtml  
-
-1. Schematic  
-根据 SQLite 生成 ContentProvider  
-项目地址：https://github.com/SimonVT/schematic  
-
-1. DBFlow  
-Android SQLite ORM 工具库。综合了 Active Android, Schematic, Ollie,Sprinkles 等库的优点；通过注解实现，性能好；能生成 ContentProvider。  
-项目地址：https://github.com/Raizlabs/DBFlow  
-文档介绍：https://github.com/Raizlabs/DBFlow#usage-docs  
-
-#### 五、Android 公共库
-1. Guava  
-Google 的基于 java1.6 的类库集合的扩展项目，包括 collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O 等等. 这些高质量的 API 可以使你的 JAVa 代码更加优雅，更加简洁  
-项目地址：https://code.google.com/p/guava-libraries/  
-文档介绍：https://code.google.com/p/guava-libraries/wiki/GuavaExplained  
-
-1. AndroidCommon  
-Android 公共库  
-项目地址：https://github.com/Trinea/AndroidCommon  
-Demo 地址：https://play.google.com/store/apps/details?id=cn.trinea.android.demo  
-文档介绍：http://www.trinea.cn/android/android-common-lib/  
-包括：a. ImageCache 图片缓存，包含内存和 Sdcard 缓存  
-http://www.trinea.cn/android/android-imagecache/  
-特点：(1)支持预取新图片，支持等待队列  
-(2)包含二级缓存，可自定义文件名保存规则  
-(3)可选择多种缓存算法(FIFO、LIFO、LRU、MRU、LFU、MFU 等 13 种)或自定义缓存算法  
-(4)可方便的保存及初始化恢复数据  
-(5)支持不同类型网络处理  
-(6)可根据系统配置初始化缓存等  
-
-b. HttpCache Http 缓存  
-文档介绍：http://www.trinea.cn/android/android-http-cache  
-特点是：(1) 根据 cache-control、expires 缓存 http 请求  
-(2) 支持同步、异步 Http 请求  
-(3) 在匿名回调中处理请求结果  
-(4) 在 UI 线程外进行 http 请求  
-(5) 默认 gzip 压缩  
-(2) 公共 View(下拉及底部加载更多 ListView、底部加载更多 ScrollView、滑动一页 Gallery)  
-(3) Android 常用工具类(网络、下载、Android 资源操作、shell、文件、Json、随机数、Collection 等等)  
-
-c. DropDownListView 下拉刷新及滑动到底部加载更多 ListView  
-文档介绍：http://www.trinea.cn/android/dropdown-to-refresh-and-bottom-load-more-listview/  
-
-1. shipfaster  
-整合了 Dagger Otto Retrofit Robolectric Picasso OkHttp，方便快速开发  
-项目地址：https://github.com/pyricau/shipfaster  
-
-1. CleanAndroidCode  
-整合了 Dagger Otto AndroidAnnotations，方便快速开发  
-项目地址：https://github.com/pyricau/CleanAndroidCode  
-
-1. xUtils  
-基于 Afinal，包含 DbUtils、ViewUtils、HttpUtils、BitmapUtils 四大模块，可用于快速开发  
-项目地址：https://github.com/wyouflf/xUtils  
-原理剖析文档：[xUtils](http://codekk.com/open-source-project-analysis/detail/Android/Caij/xUtils 源码解析)  
-
-1. Afinal  
-Afinal 是一个 android 的 ioc，orm 框架，内置了四大模块功能：FinalAcitivity,FinalBitmap,FinalDb,FinalHttp。通过 finalActivity，我们可以通过注解的方式进行绑定 ui 和事件。通过 finalBitmap，我们可以方便的加载 bitmap 图片，而无需考虑 oom 等问题。通过 finalDB 模块，我们一行代码就可以对 android 的 sqlite 数据库进行增删改查。通过 FinalHttp 模块，我们可以以 ajax 形式请求 http 数据  
-项目地址：https://github.com/yangfuhai/afinal  
-官网网址：http://www.afinal.org  
-
-1. UltimateAndroid  
-UltimateAndroid 是一个快速开发 Android 应用的框架，框架目前主要包含的功能有 View Injection,ORM,异步网络请求和图片加载，自动化脚本测试,磁盘 LRU 等功能.同时提供了类似于 TripleDes、Webview 快速设置、Md5 处理、String 处理,Https 处理等常用工具类，还有超过 100 多种 UI 控件效果。  
-项目地址：https://github.com/cymcsg/UltimateAndroid  
-官网网址：http://blog.marshalchen.com/UltimateAndroid/  
-
-1. SAF  
-SAF(Simple Android Framework)是一个简单的 android 框架，它为开发 Android app 提供了基础性组件。  
-项目地址：https://github.com/fengzhizi715/SAF  
-官网网址：http://www.salesuite.cn/  
-包括：(1)Event Bus(事件总线)  
-(2) Rest Client(http 的框架)  
-(3) Image Cache(图片缓存)  
-(4) Dependency Injection(依赖注入)  
-(5) Sqlite ORM(sqlite 的 orm)  
-(6) Router(Activity、Fragment 的 Router)  
-(7) Utils(各种常用的工具类)  
 
 1. Barber  
 Custom View 神器。通过简单的注解帮助你大大减少 Custom View 中的代码量。由于和 ButterKnife 一样使用了 Annotation Proccessor ，所以对程序性能没有影响。  
