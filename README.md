@@ -27,20 +27,7 @@ Android流式布局，支持单选、多选等，适合用于产品标签等。
 项目地址：https://github.com/nex3z/FlowLayout
 
 
-1. android-pulltorefresh-listview  
-下拉刷新 ListView，这个被很多人使用的项目实际有不少 bug，推荐使用 [android-Ultra-Pull-to-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)  
-项目地址：https://github.com/johannilsson/android-pulltorefresh  
-Demo 地址：https://github.com/Trinea/TrineaDownload/blob/master/pull-to-refresh-listview-demo.apk?raw=true  
-
-1. android-Ultra-Pull-to-Refresh  
-下拉刷新，第一个项目已经停止维护了，并且使用起来相对复杂，定制性也差。这个是替代和改良方案。这个继承于 ViewGroup 可以包含任何 View。功能甚至比 SwipeRefreshLayout 强大。使用起来非常简单。良好的设计，如果你想定制自己的 UI 样式，非常简单，就像给 ListView 加一个 Header View 那么简单。支持 `API LEVEL >= 8`  
-项目地址：https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh  
-原理剖析文档：[android-Ultra-Pull-to-Refresh](http://codekk.com/open-source-project-analysis/detail/Android/Grumoon/android-Ultra-Pull-To-Refresh 源码解析)  
-Demo 地址：https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh/blob/master/ptr-demo/target/ultra-ptr-demo.apk?raw=true  
-效果图：![Renderings](http://srain-github.qiniudn.com/ultra-ptr/contains-all-of-views.gif)  
-http://srain-github.qiniudn.com/ultra-ptr/release-to-refresh.gif  
-http://srain-github.qiniudn.com/ultra-ptr/auto-refresh.gif  
-http://srain-github.qiniudn.com/ultra-ptr/store-house-string-array.gif  
+ 
 
 1. DragSortListView  
 拖动排序的 ListView，同时支持 ListView 滑动 item 删除，各个 Item 高度不一、单选、复选、CursorAdapter 做为适配器、拖动背景变化等  
